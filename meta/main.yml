@@ -1,0 +1,29 @@
+---
+galaxy_info:
+  author: Bradley Harker (dis-bzh fork)
+  description: Keepalived for VIP management
+  company: dis-bzh
+  license: MIT
+  min_ansible_version: "2.9"
+  
+  platforms:
+    - name: Debian
+      versions:
+        - bullseye
+        - bookworm
+    - name: Ubuntu
+      versions:
+        - focal
+        - jammy
+    - name: EL
+      versions:
+        - "8"
+        - "9"
+  
+  galaxy_tags:
+    - keepalived
+    - vip
+    - ha
+    - networking
+
+dependencies: []
